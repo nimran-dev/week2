@@ -1,0 +1,107 @@
+body{
+    background-color: bisque;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+    h1{
+        text-align: center;
+        filter: drop-shadow(2px 2px 5px rgb(0, 128, 128))
+    }
+    h2{
+        margin: 4rem auto 1rem auto;
+        text-align: center;
+    }
+
+p, li{
+    font-size: 20px;
+}
+img{
+    margin:1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, -5);
+
+}
+footer{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+}
+.img-div{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+
+table{border-collapse: collapse;
+width: 35%}
+th,
+td{
+    padding: 8px;
+    text-align: left;
+    text-decoration-color: rgb(134, 83, 1) ;
+    border: 2px solid rgb(104, 1, 1);
+    color: black;
+}
+tr:hover{
+    background-color: rgb(105, 2, 2);
+}
+ul{
+margin-left: 20px;}
+ul,li{
+    
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(46, 0, 0);
+    text-decoration: double;
+
+}
+ul li:hover{
+    background-color: blueviolet;
+}
+
+ol{
+    margin-left: 20px;}
+    ol,li{
+        
+        font-size: 20px;
+        line-height: 1.5;
+        color: rgb(46, 0, 0);
+        text-decoration: double;
+    
+    }
+    ol li:hover{
+        background-color: blueviolet;
+
+}
+fieldset{
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+
+}
+legend{
+    font-size: 1.25em;
+    padding: 0 .25em;
+    color: #999;
+
+}
+
+label{
+    display: block;
+    margin-top: 1em;
+}
+.checks label {
+    margin-top: 0;
+
+}
+label:first-of-type {
+    margin-top: 0;
+}
+input {
+    padding: .5em;
+    border: solid 1px #999
+}
