@@ -4,10 +4,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" contacts="width=device-width, intial-scale=1.0">
 <!--linking stylesheet-->
+
         <link rel="stylesheet" href="style.css">
+    <!--styling using bootstrap-->
+    <style>   
+     div {
+    border-style: solid;
+    border-style: black;
+    padding: 5px;
+    margin: 5px;}
+    </style>
         <title>document</title>
     </head>
-    <body>
+    <body class="bg-secondary">
+        <div>
         <h1>about</h1>
         <div>
         <a href="index.html">home</a>
@@ -18,18 +28,36 @@
         <h2>
             Getting there and where to stay
         </h2>
-        <ul>
-            <li>by airline</li>
-            <li>by road</li>
-            <li>Istanbul</li>
-            <li>Antalya</li>
-            <li>Cappadocia</li>
-        
-        </ul>
+        <div class="container">
+            <div class="row">
+            <div class="col-sm">
+                By Airline
+            </div>
+        <div class="col-sm">
+            By Road
+        </div>
+        <div class="col-sm">
+            By Train
+        </div>
+        </div>
+        <div class="container fluid">
+            
+            <div class="row">
+            <div class="col-sm">
+                Istanbul
+            </div>
+        <div class="col-sm">
+            Antalya
+        </div>
+        <div class="col-sm">
+            Cappadocia
+        </div>
+            </div>
+            </div>
         <!--creating text in header-->
         <P>By air is the best way Turkish airline has best services. Istanbul, Cappadocia, Antalya are good places to live.</P>
         
-
+    
     </body>
 
 </html>

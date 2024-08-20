@@ -5,8 +5,7 @@ body{
     margin-left: 5rem;
     margin-right: 5rem;
 }
-    h1{
-        text-align: center;
+    h1{     text-align: center;
         filter: drop-shadow(2px 2px 5px rgb(0, 128, 128))
     }
     h2{
